@@ -12,8 +12,8 @@ public class VariableNamesTheme  {
         System.out.println("Сумма чисел = " + sumNumber);
 
         //Произведение чисел
-        int multNumber = 3;
-        System.out.println("Произведение чисел = " + multNumber);
+        int productOfNumbers = 3;
+        System.out.println("Произведение чисел = " + productOfNumbers);
 
         //Максимальное число
         int maxNumber = 4;
@@ -32,8 +32,8 @@ public class VariableNamesTheme  {
         System.out.println("Исходное число = " + initialNumber);
 
         //Процент по вкладу
-        float depositPercentage = 7.5f;
-        System.out.println("Процент по вкладу = " + depositPercentage);
+        float rate = 7.5f;
+        System.out.println("Процент по вкладу = " + rate);
 
         //(переменная хранит символ) &
         char symbol = '&';
@@ -48,8 +48,8 @@ public class VariableNamesTheme  {
         System.out.println("Тип сообщения = " + messageType);
 
         //Число нулей
-        int zeroCount = 8;
-        System.out.println("Число нулей = " + zeroCount);
+        int zeroQuantity = 8;
+        System.out.println("Число нулей = " + zeroQuantity);
 
         //Уникальное число
         int uniqueNumber = 9;
@@ -64,16 +64,16 @@ public class VariableNamesTheme  {
         System.out.println("Математическое выражение = " + mathExpression);
 
         //Выбор (чего-либо)
-        boolean isOption = true;
-        System.out.println("Выбор (чего-либо) = " + isOption);
+        int choise  = 10;
+        System.out.println("Выбор (чего-либо) = " + choise);
 
         //Cчет (в игре)
         int gameScore = 11;
         System.out.println("Cчет (в игре) = " + gameScore);
 
         //Максимальная длина (строки)
-        int maxStringLength = 12;
-        System.out.println("Максимальная длина (строки) = " + maxStringLength);
+        int maxLength = 12;
+        System.out.println("Максимальная длина (строки) = " + maxLength);
 
         //Пункт меню
         int menuItem = 13;
@@ -88,8 +88,8 @@ public class VariableNamesTheme  {
         System.out.println("Дата начала (чего-либо) = " + startDate);
 
         //Окончание диапазона
-        int rangeEnd = 15;
-        System.out.println("Окончание диапазона = " + rangeEnd);
+        int endRange = 15;
+        System.out.println("Окончание диапазона = " + endRange);
 
         //Полное имя работника месяца
         String employeeOfMonthFullName = "Иванов Иван Иванович";
@@ -116,8 +116,8 @@ public class VariableNamesTheme  {
         System.out.println("Путь до файла = " + filePath);
 
         //Количество чисел в каждой строке
-        int numberRowCount = 19;
-        System.out.println("Количество чисел в каждой строке = " + numberRowCount + "\n");
+        int numbersPerRowCount = 19;
+        System.out.println("Количество чисел в каждой строке = " + numbersPerRowCount + "\n");
 
         System.out.println("2. boolean-переменные\n");
 
@@ -130,24 +130,24 @@ public class VariableNamesTheme  {
         System.out.println("Компьютер включен? - " + isComputerOn);
 
         //Есть равные цифры? 
-        boolean hasEqualDigist = false;
-        System.out.println("Есть равные цифры? - " + hasEqualDigist);
+        boolean hasEqualDigits = false;
+        System.out.println("Есть равные цифры? - " + hasEqualDigits);
 
         //(Что-либо) создано? 
-        boolean isCreatedSomething = true;
-        System.out.println("(Что-либо) создано? - " + isCreatedSomething);
+        boolean isCreated = true;
+        System.out.println("(Что-либо) создано? - " + isCreated);
 
         //(Что-либо) пустое?
-        boolean isEmptySomething = false;
-        System.out.println("(Что-либо) пустое? - " + isEmptySomething);
+        boolean isEmpty = false;
+        System.out.println("(Что-либо) пустое? - " + isEmpty);
 
         //(Что-либо) активное?
-        boolean isActiveSomething = true;
-        System.out.println("(Что-либо) активное? - " + isActiveSomething);
+        boolean isActive = true;
+        System.out.println("(Что-либо) активное? - " + isActive);
 
         //(Что-либо) новое?
-        boolean isSomethingNew  = true;
-        System.out.println("(Что-либо) новое? - " + isSomethingNew);
+        boolean isNew  = true;
+        System.out.println("(Что-либо) новое? - " + isNew);
 
         //Электронная почта действительная?
         boolean isValidEmail = true;
@@ -160,8 +160,8 @@ public class VariableNamesTheme  {
         System.out.println("3. Аббревиатуры\n");
 
         //Старый universally unique identifier
-        String oldUUID = "687aa9a3-e218-4a51-a794-70bef5805565";
-        System.out.println("Старый universally unique identifier - " + oldUUID);
+        String oldUuid = "687aa9a3-e218-4a51-a794-70bef5805565";
+        System.out.println("Старый universally unique identifier - " + oldUuid);
 
         //Производитель оперативной памяти
         String ramManufacturer = "AMD";
@@ -176,18 +176,15 @@ public class VariableNamesTheme  {
         System.out.println("Протокол передачи гипертекста - " + http);
 
         //Сокращенный uniform resource locator
-        String shortURL = "https://shortURL.a/1";
-        System.out.println("Сокращенный uniform resource locator - " + shortURL);
+        String shortUrl = "https://shortURL.a/1";
+        System.out.println("Сокращенный uniform resource locator - " + shortUrl);
 
         //Новый идентификатор клиента
-        int newClientID = 1;
-        System.out.println("Новый идентификатор клиента = " + newClientID);
+        int newClientId = 1;
+        System.out.println("Новый идентификатор клиента = " + newClientId);
 
         //Кодировка american standard code for information interchange
         String asciiEncoding = "123";
         System.out.println("Кодировка american standard code for information interchange - " + asciiEncoding);
-
-
-
     }
 }
