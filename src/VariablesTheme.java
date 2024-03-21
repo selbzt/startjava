@@ -137,11 +137,9 @@ public class VariablesTheme {
         System.out.println("\n8. Перестановка значений переменных\n");
 
         int number = 123;
-
         int hundreds = number / 100;
         int tens = number / 10 % 10;
         int ones = number % 10;
-
         int sum = hundreds + tens + ones;
         int product = hundreds * tens * ones;
 
