@@ -125,7 +125,6 @@ public class IfElseStatementTheme {
         System.out.println("\n6.Подсчет суммы вклада и начисленных банком %");
 
         double depositAmount = 301000;
-
         double interestRate;
         double interestAmount;
 
