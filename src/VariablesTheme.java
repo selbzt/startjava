@@ -2,20 +2,16 @@ public class VariablesTheme {
     public static void main(String[] args) {
         System.out.println("1. Вывод характеристик компьютера");
 
-        // Целочисленные типы данных
         int numberOfCores = 4;
         long cpu = 3000000000L;
         short ramSize = 8192;
         byte systemArchitectureBits = 64;
 
-        // Типы данных с плавающей точкой
         float gpuClockSpeed = 1500.5f;
         double storageCapacity = 512.75d;
 
-        // Тип char для символьных данных
         char processorCodeName = 'i';
 
-        // Тип boolean для булевых данных
         boolean isSsd = true;
         boolean isGamingComputer = false;
 
