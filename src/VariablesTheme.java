@@ -1,10 +1,10 @@
 public class VariablesTheme {
     public static void main(String[] args) {
-        System.out.println("1. Вывод характеристик компьютера\n");
+        System.out.println("1. Вывод характеристик компьютера");
 
         // Целочисленные типы данных
         int numberOfCores = 4;
-        long processorCpu = 3000000000L;
+        long cpu = 3000000000L;
         short ramSize = 8192;
         byte systemArchitectureBits = 64;
 
@@ -22,7 +22,7 @@ public class VariablesTheme {
         // Вывод значений переменных
         System.out.println("Характеристики компьютера:");
         System.out.println("Количество ядер: " + numberOfCores);
-        System.out.println("Частота процессора: " + processorCpu + " ГГц");
+        System.out.println("Частота процессора: " + cpu + " ГГц");
         System.out.println("Объем оперативной памяти: " + ramSize + " МБ");
         System.out.println("Разрядность системы: " + systemArchitectureBits + " бит");
         System.out.println("Частота GPU: " + gpuClockSpeed + " ГГц");
@@ -31,7 +31,7 @@ public class VariablesTheme {
         System.out.println("Используется SSD: " + isSsd);
         System.out.println("Это игровой компьютер: " + isGamingComputer + "\n");
 
-        System.out.println("2. Расчет стоимости товара со скидкой\n");
+        System.out.println("2. Расчет стоимости товара со скидкой");
 
         double penPrice = 100.0;
         double bookPrice = 200.0;
@@ -53,34 +53,30 @@ public class VariablesTheme {
         System.out.println("J  J  aaaaa  V V  aaaaa");
         System.out.println(" JJ  a     a  V  a     a");
 
-        System.out.println("\n4. Вывод min и max значений целых числовых типов\n");
+        System.out.println("\n4. Вывод min и max значений целых числовых типов");
 
         byte maxValueByte = 127;
         short maxValuetShort = 32767;
         int maxValueInt = 2147483647;
         long maxValueLong = 9223372036854775807L;
 
-        System.out.println("maxValueByte:");
         System.out.println("Исходное значение: " + maxValueByte);
-        System.out.println("Значение после инкремента: " + maxValueByte++);
-        System.out.println("Значение после декремента: " + maxValueByte--);
+        System.out.println("Значение после инкремента: " + ++maxValueByte);
+        System.out.println("Значение после декремента: " + --maxValueByte);
 
-        System.out.println("\nmaxValuetShort:");
         System.out.println("Исходное значение: " + maxValuetShort);
-        System.out.println("Значение после инкремента: " + maxValuetShort++);
-        System.out.println("Значение после декремента: " + maxValuetShort--);
+        System.out.println("Значение после инкремента: " + ++maxValuetShort);
+        System.out.println("Значение после декремента: " + --maxValuetShort);
 
-        System.out.println("\nmaxValueInt:");
         System.out.println("Исходное значение: " + maxValueInt);
-        System.out.println("Значение после инкремента: " + maxValueInt++);
-        System.out.println("Значение после декремента: " + maxValueInt--);
+        System.out.println("Значение после инкремента: " + ++maxValueInt);
+        System.out.println("Значение после декремента: " + --maxValueInt);
 
-        System.out.println("\nmaxValueLong:");
         System.out.println("Исходное значение: " + maxValueLong);
-        System.out.println("Значение после инкремента: " + maxValueLong++);
-        System.out.println("Значение после декремента: " + maxValueLong--);
+        System.out.println("Значение после инкремента: " + ++maxValueLong);
+        System.out.println("Значение после декремента: " + --maxValueLong);
 
-        System.out.println("\n5. Перестановка значений переменных\n");
+        System.out.println("\n5. Перестановка значений переменных");
 
         int a = 2;
         int b = 5;
@@ -101,25 +97,26 @@ public class VariablesTheme {
 
         System.out.println("\nС использованием побитовой операции");
         System.out.println("Исходные значения: a = " + a + ", b = " + b);
-        a = a ^ b;
-        b = a ^ b;
-        a = a ^ b;
+        a ^= b;
+        b ^= a;
+        a ^= b;
         System.out.println("Новые значения: a = " + a + ", b = " + b);
 
-        System.out.println("\n6. Перестановка значений переменных\n");
+        System.out.println("\n6. Перестановка значений переменных");
 
-        char dollarSymbol = '$';
-        char asteriskSymbol = '*';
-        char atSignSymbol = '@';
-        char verticalBarSymbol = '|';
-        char tildeSymbol = '~';
+        char dollar = '$';
+        char asterisk = '*';
+        char atSign = '@';
+        char verticalBar = '|';
+        char tilde = '~';
 
-        System.out.println("\nКод символа: " + (int) dollarSymbol + " Символ: " + dollarSymbol);
-        System.out.println("\nКод символа: " + (int) asteriskSymbol + " Символ: " + asteriskSymbol);
-        System.out.println("\nКод символа: " + (int) atSignSymbol + " Символ: " + atSignSymbol);
-        System.out.println("\nКод символа: " + (int) verticalBarSymbol + " Символ: " + verticalBarSymbol);
-        System.out.println("\nКод символа: " + (int) tildeSymbol + " Символ: " + tildeSymbol);
-        System.out.println("\n7. Вывод в консоль ASCII-арт Дюка\n");
+        System.out.println("\nКод символа: " + (int) dollar + " Символ: " + dollar);
+        System.out.println("\nКод символа: " + (int) asterisk + " Символ: " + asterisk);
+        System.out.println("\nКод символа: " + (int) atSign + " Символ: " + atSign);
+        System.out.println("\nКод символа: " + (int) verticalBar + " Символ: " + verticalBar);
+        System.out.println("\nКод символа: " + (int) tilde + " Символ: " + tilde);
+
+        System.out.println("\n7. Вывод в консоль ASCII-арт Дюка");
 
         char slash = '/';
         char backslash = '\\';
@@ -127,14 +124,14 @@ public class VariablesTheme {
         char leftParenthesis = '(';
         char rightParenthesis = ')';
 
-        System.out.println("    " + slash +  backslash);
+        System.out.println("\n    " + slash +  backslash);
         System.out.println("   " + slash + "  " + backslash);
         System.out.println("  " + slash + underscore + leftParenthesis + " " + rightParenthesis + backslash);
         System.out.println(" " + slash + "      " + backslash);
         System.out.println("" + slash + underscore + underscore + underscore + 
                 underscore + slash + backslash + underscore + underscore + backslash);
 
-        System.out.println("\n8. Перестановка значений переменных\n");
+        System.out.println("\n8. Перестановка значений переменных");
 
         int number = 123;
         int hundreds = number / 100;
@@ -143,7 +140,7 @@ public class VariablesTheme {
         int sum = hundreds + tens + ones;
         int product = hundreds * tens * ones;
 
-        System.out.println("Число " + number + " содержит:" +
+        System.out.println("\nЧисло " + number + " содержит:" +
                 "\nСотен - " + hundreds + 
                 "\nДесятков - " + tens + 
                 "\nЕдиниц - " + ones + 
